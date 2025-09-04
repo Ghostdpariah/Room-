@@ -3,12 +3,12 @@ body {
   margin: 0;
   font-family: "League Spartan";
   font-size: 16px;
-  /* position: relative; */
 }
 
 header {
   display: grid;
   grid-template-columns: 58% 42%;
+  height: 70%;
 }
 
 .hero-container {
@@ -85,7 +85,7 @@ header {
 footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  height: 30vh;
+  height: 30%;
 }
 
 footer img {
