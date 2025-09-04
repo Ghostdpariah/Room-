@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: "League Spartan";
   font-size: 16px;
+  position: relative;
 }
 
 header {
@@ -12,9 +13,10 @@ header {
 
 .hero-container {
   background-image: url(images/slide1-hero.jpg);
-  height: 68vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .hero-container .hero-navigation {
@@ -69,6 +71,7 @@ header {
   background-color: #000;
   display: flex;
   justify-content: space-around;
+
   position: absolute;
   bottom: 0;
   left: 0;
