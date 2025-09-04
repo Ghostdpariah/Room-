@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan";
+  font-size: 16px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 58% 42%;
+}
+
+.hero-container {
+  background-image: url(images/slide1-hero.jpg);
+  height: 68vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container .hero-navigation {
+  display: flex;
+  gap: 70px;
+  padding: 50px 50px 50px 70px;
+}
+
+.hero-navigation .navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.hero-navigation .navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.right-flex {
+  position: relative;
+}
+
+.right-flex .right-flex-item {
+  padding: 100px;
+}
+
+.right-flex-item h1 {
+  font-size: 40px;
+}
+
+.right-flex-item p {
+  color: hsl(0, 0%, 63%);
+  line-height: 20px;
+}
+
+.right-flex-item .shop-flex {
+  display: flex;
+  gap: 40px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.right-flex-item .shop-flex span {
+  word-spacing: 10px;
+  letter-spacing: 10px;
+}
+
+.right-flex-item .rectangle {
+  width: 165px;
+  height: 80px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.right-flex-item .rectangle img {
+  text-align: center;
+  padding-top: 25px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 32vh;
+}
+
+footer img {
+  height: 100%;
+}
+
+footer .footer-item {
+  padding: 50px;
+}
+
+footer .footer-item h2 {
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+footer .footer-item p {
+  line-height: 20px;
+  color: hsl(0, 0%, 63%);
+}
