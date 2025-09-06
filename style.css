@@ -47,7 +47,8 @@ header {
 }
 
 .right-flex-item h1 {
-  font-size: 40px;
+  font-size: 45px;
+  font-weight: 600;
 }
 
 .right-flex-item p {
