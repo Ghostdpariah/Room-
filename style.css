@@ -70,7 +70,7 @@ header {
 /* rectangle and Button */
 
 .right-flex-item .rectangle {
-  width: 247px;
+  width: 175px;
   height: 100px;
   background-color: #000;
   display: flex;
@@ -91,15 +91,14 @@ header {
 
 .right-flex-item .rectangle img {
   text-align: center;
-  padding: 40px;
-  /* padding-top: 25px; */
+  padding-top: 35px;
 }
 
 /* Footer */
 footer {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  height: 32vh;
+  grid-template-columns: 30% 40% 30%;
+  height: 100%;
 }
 
 footer img {
