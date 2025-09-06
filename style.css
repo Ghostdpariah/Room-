@@ -71,7 +71,7 @@ header {
 
 .right-flex-item .rectangle {
   width: 247px;
-  height: 80px;
+  height: 100px;
   background-color: #000;
   display: flex;
   justify-content: space-around;
@@ -91,7 +91,8 @@ header {
 
 .right-flex-item .rectangle img {
   text-align: center;
-  padding-top: 25px;
+  padding: 40px;
+  /* padding-top: 25px; */
 }
 
 /* Footer */
