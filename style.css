@@ -9,11 +9,12 @@ body {
 header {
   display: grid;
   grid-template-columns: 58% 42%;
+  height: 100%;
 }
 
 .hero-container {
   background-image: url(images/slide1-hero.jpg);
-  height: 68vh;
+  height: 72vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -69,7 +70,7 @@ header {
 /* rectangle and Button */
 
 .right-flex-item .rectangle {
-  width: 165px;
+  width: 247px;
   height: 80px;
   background-color: #000;
   display: flex;
@@ -102,6 +103,7 @@ footer {
 
 footer img {
   height: 100%;
+  width: 100%;
 }
 
 footer .footer-item {
