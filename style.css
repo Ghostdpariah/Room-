@@ -36,6 +36,10 @@ header {
   color: #fff;
 }
 
+.hero-navigation .hamburger-icon {
+  display: none;
+}
+
 /* Right flex */
 
 .right-flex {
@@ -119,4 +123,128 @@ footer .footer-item h2 {
 footer .footer-item p {
   line-height: 20px;
   color: hsl(0, 0%, 63%);
+}
+
+/* Responsiveness */
+@media (max-width: 576px) {
+  body {
+    position: relative;
+  }
+
+  header {
+    display: block;
+  }
+
+  .hero-container {
+    background-image: url(images/mobile-image-hero-1.jpg);
+    height: 65vh;
+    object-fit: contain;
+  }
+
+  .hero-navigation .hamburger-icon {
+    display: flex;
+    background-color: transparent;
+    border: none;
+  }
+
+  .hero-navigation .navigation {
+    display: none;
+  }
+
+  .hero-container .hero-navigation {
+    display: flex;
+    gap: 150px;
+    flex-direction: row-reverse;
+    width: 42%;
+  }
+
+  .right-flex {
+    position: none;
+  }
+
+  .right-flex .right-flex-item {
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    padding: 70px;
+  }
+
+  .right-flex-item h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .right-flex-item p {
+    color: hsl(0, 0%, 63%);
+    line-height: 20px;
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .right-flex-item .shop-flex {
+    display: flex;
+    gap: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+  }
+
+  .right-flex-item .shop-flex span {
+    word-spacing: 10px;
+    letter-spacing: 10px;
+  }
+
+  /* rectangle and Button */
+
+  .right-flex-item .rectangle {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    display: flex;
+    gap: 300px;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .right-flex-item .rectangle button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .rectangle button:hover {
+    cursor: pointer;
+  }
+
+  .right-flex-item .rectangle img {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: block;
+    grid-template-columns: 30% 40% 30%;
+    height: 100%;
+  }
+
+  footer img {
+    height: 100%;
+    width: 100%;
+  }
+
+  footer .footer-item {
+    padding: 50px;
+  }
+
+  footer .footer-item h2 {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+
+  footer .footer-item p {
+    font-size: 16px;
+    line-height: 20px;
+    color: hsl(0, 0%, 63%);
+    width: 90%;
+  }
 }
