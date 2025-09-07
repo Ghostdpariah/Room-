@@ -128,7 +128,8 @@ footer .footer-item p {
 /* Responsiveness */
 @media (max-width: 576px) {
   body {
-    position: relative;
+    padding: 0;
+    margin: 0;
   }
 
   header {
