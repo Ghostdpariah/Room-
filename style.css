@@ -130,6 +130,7 @@ footer .footer-item p {
 }
 
 /* Responsiveness Mobile*/
+
 @media (max-width: 576px) {
   body {
     padding: 0;
@@ -203,6 +204,8 @@ footer .footer-item p {
     position: static;
   }
 
+  /* Button Section */
+
   .right-flex-item .rectangle {
     display: none;
   }
@@ -226,6 +229,9 @@ footer .footer-item p {
     border: none;
   }
 
+  .hero-container .rectangle-mobile button:hover {
+    cursor: pointer;
+  }
   /* rectangle and Button */
 
   /* .right-flex-item .rectangle {
@@ -257,6 +263,105 @@ footer .footer-item p {
   footer {
     display: block;
     grid-template-columns: 30% 40% 30%;
+    height: 100%;
+  }
+
+  footer img {
+    height: 100%;
+    width: 100%;
+  }
+
+  footer .footer-item {
+    padding: 50px;
+  }
+
+  footer .footer-item h2 {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+
+  footer .footer-item p {
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(0, 0%, 63%);
+    width: 90%;
+  }
+}
+
+/* Responsiveness Tablet */
+
+@media (min-width: 577px) and (max-width: 911px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: block;
+  }
+
+  /* Hero Section */
+
+  .hero-container {
+    background-image: url(images/mobile-image-hero-1.jpg);
+    height: 75vh;
+    object-fit: contain;
+    position: relative;
+  }
+
+  .hero-navigation .hamburger-icon {
+    display: flex;
+    background-color: transparent;
+    border: none;
+  }
+
+  .hero-navigation .navigation {
+    display: none;
+  }
+
+  .hero-container .hero-navigation {
+    display: flex;
+    gap: 200px;
+    flex-direction: row-reverse;
+    width: 50%;
+    padding-left: 50px;
+  }
+
+  .right-flex-item .rectangle {
+    display: none;
+  }
+
+  .hero-container .rectangle-mobile {
+    width: 150px;
+    height: 70px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hero-container .rectangle-mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hero-container .rectangle-mobile button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .hero-container .rectangle-mobile button:hover {
+    cursor: pointer;
+  }
+
+  .right-flex-item h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  footer {
+    display: block;
+    /* grid-template-columns: 32% 36% 32%; */
     height: 100%;
   }
 
