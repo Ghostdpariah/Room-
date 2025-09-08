@@ -25,6 +25,10 @@ header {
   padding: 50px 50px 50px 70px;
 }
 
+.rectangle-mobile {
+  display: none;
+}
+
 .hero-navigation .navigation {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -125,7 +129,7 @@ footer .footer-item p {
   color: hsl(0, 0%, 63%);
 }
 
-/* Responsiveness */
+/* Responsiveness Mobile*/
 @media (max-width: 576px) {
   body {
     padding: 0;
@@ -140,6 +144,7 @@ footer .footer-item p {
     background-image: url(images/mobile-image-hero-1.jpg);
     height: 65vh;
     object-fit: contain;
+    position: relative;
   }
 
   .hero-navigation .hamburger-icon {
@@ -194,9 +199,36 @@ footer .footer-item p {
     letter-spacing: 10px;
   }
 
-  /* rectangle and Button */
+  .right-flex {
+    position: static;
+  }
 
   .right-flex-item .rectangle {
+    display: none;
+  }
+
+  .hero-container .rectangle-mobile {
+    width: 150px;
+    height: 70px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hero-container .rectangle-mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hero-container .rectangle-mobile button {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* rectangle and Button */
+
+  /* .right-flex-item .rectangle {
     width: 100vw;
     height: 60px;
     background-color: #000;
@@ -218,7 +250,7 @@ footer .footer-item p {
   .right-flex-item .rectangle img {
     text-align: center;
     padding-top: 15px;
-  }
+  } */
 
   /* Footer */
 
@@ -243,7 +275,7 @@ footer .footer-item p {
   }
 
   footer .footer-item p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color: hsl(0, 0%, 63%);
     width: 90%;
