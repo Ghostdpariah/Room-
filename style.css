@@ -160,9 +160,9 @@ footer .footer-item p {
 
   .hero-container .hero-navigation {
     display: flex;
-    gap: 150px;
+    gap: 230px;
     flex-direction: row-reverse;
-    width: 42%;
+    width: 60%;
   }
 
   .right-flex {
