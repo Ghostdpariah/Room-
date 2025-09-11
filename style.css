@@ -305,7 +305,7 @@ footer .footer-item p {
 
   .hero-container {
     background-image: url(images/slide1-hero.jpg);
-    height: 70vh;
+    height: 60vh;
     object-fit: contain;
     position: relative;
   }
