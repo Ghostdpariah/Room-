@@ -14,7 +14,7 @@ header {
 
 .hero-container {
   background-image: url(images/slide1-hero.jpg);
-  height: 72vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -160,9 +160,9 @@ footer .footer-item p {
 
   .hero-container .hero-navigation {
     display: flex;
-    gap: 100px;
+    gap: 120px;
     flex-direction: row-reverse;
-    width: 30%;
+    width: 35%;
     padding-left: 100px;
   }
 
@@ -305,7 +305,7 @@ footer .footer-item p {
 
   .hero-container {
     background-image: url(images/slide1-hero.jpg);
-    height: 60vh;
+    height: 80vh;
     object-fit: contain;
     position: relative;
   }
